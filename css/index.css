@@ -257,8 +257,8 @@ nav a {
 /* padding: 0 20px 20px 100px;
 } */
 
-.top-content {
-  border-top: 1px solid black;
+section.top-content {
+  border-top: 2px solid black;
   padding: 30px 0 30px;
   display: flex;
 }
@@ -301,7 +301,7 @@ nav a {
   display: flex;
   flex-direction: column;
   width: 32%;
-  margin: 0px 10px 0px;
+  /* margin: 0px 10px 0px; */
 }
 
 .bottom-content .vision {
@@ -319,7 +319,8 @@ nav a {
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  margin: 0 auto;
+  /* justify-content: space-evenly; */
 }
 footer p {
   padding: 65px 0 0 0;
@@ -478,6 +479,7 @@ ul > li {
     padding-bottom: 15px;
     font-size: 20px;
     width: 100%;
+    margin: 0 auto;
     text-align: center;
   }
 
@@ -509,5 +511,75 @@ ul > li {
     height: 30px;
     width: 175px;
     text-align: center;
+  }
+
+  .main-content-home {
+    margin: 15px;
+    justify-content: space-between;
+  }
+
+  .top-content {
+    border-top: 1px solid black;
+    /* padding: 30px 0 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .top-content .features {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 100%;
+    /* padding-right: 5px; */
+    margin-bottom: 30px;
+  }
+
+  .top-content .about {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+
+  .bottom-content {
+    border-bottom: 2px solid black;
+    padding: 20px 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .bottom-content .services {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+    /* border: 1px solid red; */
+  }
+
+  .bottom-content .product {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+    /* margin: 0px 10px 0px; */
+  }
+
+  .bottom-content .vision {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .contact-content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
   }
 }
